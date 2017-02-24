@@ -1,0 +1,82 @@
+/*180px*/
+
+@media screen and (min-width:180px) {
+#gallery li {
+width: 40%;
+float: right;
+}    
+
+.next {
+padding: 10% 10%;
+}
+
+} 
+
+/*320px*/
+@media screen and (min-width:320px) {
+#gallery li {
+width: 40%;
+float: right;
+}   
+
+
+
+} 
+
+/*480px*/
+@media screen and (min-width:480px) {
+ul li:nth-child(5n) {
+float:right;
+clear:both;
+} 
+
+
+}
+
+
+/*940px*/
+@media screen and (min-width:940px) {
+    
+ul li img {
+width: 100%;
+}
+
+#gallery li {
+width:20%;
+}
+
+#gallery li:nth-child(5n) {
+margin-top:-320px;
+margin-right:290px;
+clear:both;
+}
+
+nav {
+width:23%;
+padding-top: 20%;
+float:left;
+margin-left:127px;
+}
+
+.next {
+padding: 25%;
+color:black;
+border: 5px solid black;
+background-color:red;
+border-radius: 1em;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
